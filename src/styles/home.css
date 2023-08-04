@@ -1,0 +1,13 @@
+.imge1{
+   animation: ymotion 1s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+@keyframes ymotion {
+    from {
+        transform: translateY(10px);
+    }
+    to{
+        transform: translateY(-10px);
+    }
+}
